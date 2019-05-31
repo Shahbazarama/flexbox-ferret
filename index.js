@@ -2,11 +2,15 @@ document.addEventListener('DOMContentLoaded', function(e){
   let codeSubmit = document.querySelector('#codeSubmit')
   let lineOfCode = document.querySelector('#lineOfCode')
 
-  let ferretImage = document.querySelector('#ferretImage')
-  let rightSide = document.querySelector('.rightSide')
+  let ferretLand = document.querySelector('.ferretLand')
+
   function testFerretLand(codeToTest){
-    console.log('hit')
-    rightSide.setAttribute("style", codeToTest)
+    let propertyName = codeToTest.slice(0, codeToTest.indexOf(":"))
+    console.log(propertyName)
+    let propertyValue = codeToTest.slice(codeToTest.indexOf(':')+1, codeToTest.length - 1)
+    console.log(propertyValue)
+
+    ferretLand.style.setProperty(propertyName, propertyValue)
   }
 
 

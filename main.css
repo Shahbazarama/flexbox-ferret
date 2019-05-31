@@ -14,10 +14,11 @@ body {
   width: 50%;
   height: 100vh;
   background-color: red;
-  display:flex;
+  min-width: 600px;
 }
 
 
-#ferretImage {
-
+.ferretLand {
+  display: flex;
+  height: inherit;
 }
