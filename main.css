@@ -10,6 +10,36 @@ body {
 
 }
 
+.codeEntry {
+  padding: 2em;
+}
+
+#lineOfCode {
+  height: 35px;
+  width: 250px;
+  padding: 0 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 9;
+  font-size: 15px;
+  color: rgba(0,0,0, 0.8);
+  white-space: nowrap;
+}
+
+#codeSubmit {
+  height: 60px;
+  width: auto;
+  font-size: 20px;
+  background-color: rgba(160, 255, 255, 0.2);
+  margin: 0 auto;
+  padding: 0 20px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  float: center;
+}
+
+
 .rightSide {
   width: 50%;
   height: 100vh;
