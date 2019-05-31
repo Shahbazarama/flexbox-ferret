@@ -15,10 +15,44 @@
     <div class="codeEntry">
       <form name="codeForm">
         Flex Code - don't forget the semicolon!<br>
-        <input type="text" name="lineOfCode" id="lineOfCode" value=""><br>
+        <input type="text" name="lineOfCode" id="lineOfCode" value="" placeholder="justify-content: flex-end;"><br>
         <br>
         <button type="submit" id="codeSubmit">Submit</button>
       </form>
+    </div>
+
+    <div class="tips">
+      <ul>
+        <li>
+          flex-direction
+          <ul>
+            <li>row or row-reverse</li>
+            <li>column or column-reverse</li>
+          </ul>
+        </li>
+        <li>
+          justify-content for horizontal spacing
+          <ul>
+            <li>'vertical' if flex-direction is column</li>
+            <li>center</li>
+            <li>flex-start or flex-end</li>
+            <li>space-around or space-between</li>
+          </ul>
+        </li>
+        <li>
+          align-items is vertical spacing
+          <ul>
+            <li>'horizontal' if flex-direction is column</li>
+            <li>center</li>
+            <li>flex-start or flex-end</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="victoryText">
+      <h2>you win !</h2>
+
     </div>
   </section>
   <section class="rightSide">
@@ -27,9 +61,12 @@
       <img src="./img/ferret.png" width="100px" height="100px" alt="ferret" id="ferretImage">
       <img src="./img/ferret.png" width="100px" height="100px" alt="ferret" id="ferretImage">
     </div>
+    <div class="borderBox">
+      <div class="ferretGoal">
+
+      </div>
+    </div>
   </section>
-
-
 
   <script src="index.js" charset="utf-8"></script>
 </body>
