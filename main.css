@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftSide {
+  width: 50%;
+
+}
+
+.rightSide {
+  width: 50%;
+  height: 100vh;
+  background-color: red;
+  display:flex;
+}
+
+
+#ferretImage {
+
+}
