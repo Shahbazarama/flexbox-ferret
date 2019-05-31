@@ -36,8 +36,6 @@ document.addEventListener('DOMContentLoaded', function(e){
     } else{
       victoryText.style.display = 'none'
     }
-
-
   }
 
   codeSubmit.addEventListener('click', function(e){
